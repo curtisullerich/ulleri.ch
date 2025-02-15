@@ -38,6 +38,15 @@ echo "copying"
 cp -r _site/wedding $ULLERICH/
 cd $ULLERICH
 git commit -a -m "Published latest changes of /wedding"
+read -p "continue by pushing ulleri.ch to github?" -n 1 -r
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+  echo "exiting"
+  exit
+fi
+echo "pushing"
+git push
+echo "done"
 
 # check if ulleri.ch exists as a sibling
 # check if ulleri.ch has pulled
