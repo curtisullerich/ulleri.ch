@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","sourcesContent":[],"file":"globals.css"}
+{"version":3,"sourceRoot":"","sources":["globals.scss"],"names":[],"mappings":"AAAA,WACC,eACA,kBAGD,WACC,eACA,aAGD,oBACC,kBAID,yBAEC,uBACC","sourcesContent":[".dno-image {\n\tmax-width: 100%;\n\tmargin-bottom: 1em;\n}\n\n.rsvp-form {\n\tmax-width: 100%;\n\theight: 170vh;\n}\n\n.centered-heading-2 {\n\ttext-align: center;\n}\n\n\n@media (max-width: 767px) {\n\n\tsection[id*=\"ourstory-\"] {\n\t\tpadding: 3em 0 5px;\n\t}\n\n}\n\n\n"],"file":"globals.css"}
